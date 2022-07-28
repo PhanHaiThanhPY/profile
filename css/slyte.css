@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    
+}
+.container .header{
+    height: 350px;
+    position: relative;
+    background: #003147;
+    border-radius: 20px;
+}
+.nav-bar{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.nav-bar__img{
+    width: 35%;
+    text-align: center;
+    margin: 20px;
+    /* padding: 0; */
+}
+
+.nav-bar__img img{
+    width: 70%;
+    border-radius: 10%;
+}
+
+.nav-bar__todolist{
+    width: 70%;
+    margin-top: 20px;
+} 
+
+.nav-bar__todolist h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    color: orange;
+}
+
+.nav-bar__todolist p{
+    font-size: 20px;
+    font-weight: 400;
+    color: orange;
+}
+
+.nav-bar__todolist .fa-solid{
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+
+.nav-bar__todolist .fa-solid span{
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+    color: #fff;
+}   
+
+.container .wapper{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: #003147;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.wapper__item{
+    padding: 20px;
+}
+.wapper__item p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.container .card{
+    width: 49%;
+    height: auto;
+    position: relative;
+    background: #003147;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: block;
+    float: left;
+    
+    
+}
+.container .nav-bar__card{
+    width: 49%;
+    height: auto;
+    position: relative;
+    background: #003147;
+    margin-top: 20px;
+    border-radius: 20px;
+    float: right;
+}
+.fa-solid{
+    color: orange;
+    font-size: 30px;
+    padding-right: 20px;
+}
+h2{
+    color: orange;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.card_content{
+    padding: 20px 0 0 20px;    
+    border-bottom: 3px solid black;
+}
+.card__item{
+    padding: 20px 0 0 20px; 
+}
+.card__item p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.card__item span{
+    font-size: 20px;
+    color: orange;
+}
+.card__item h4{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
